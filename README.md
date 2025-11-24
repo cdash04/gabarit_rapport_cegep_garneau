@@ -1,2 +1,2 @@
-# gabarit_rapport_cegep_garneau
-Gabarit en Markdown de rapport pour le Cégep Garneau
+# Gabarit Rapport Cegep Garneau
+Gabarit en Markdown de rapport pour les travaux pratiques du Cégep Garneau

@@ -1,0 +1,89 @@
+/* style.css */
+
+/* General styles for the page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  padding-top: 40px;    /* Should be >= header height */
+  padding-bottom: 60px; /* Should be >= footer height */
+  background-color: #f9f9f9;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.right {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.cours, .professeur, .date, .etudiant, .groupe {
+  margin: 1px 0;
+  padding: 0 1rem;
+}
+
+.logo {
+  max-height:100%;
+  max-width:60%;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+header nav a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Styles for the fixed footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  /* background-color: #333; */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 1000;
+  /* border-top: 1px solid #444; */
+}
+
+/* Styles for the main content area */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
